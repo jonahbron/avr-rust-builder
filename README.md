@@ -14,7 +14,7 @@ This will create a `build` directory, and compile Rust within that directory.
 Once it's done, you can link the toolchain to `rustup` like so:
 
 ```bash
-$ rustup toolchain link avr $(realpath build/x86_64-unknown-linux-gnu/stage2)
+$ rustup toolchain link avr $PWD/build/x86_64-unknown-linux-gnu/stage2
 ```
 
 Once that's done, you can use the AVR just like any other toolchain.  Example:
