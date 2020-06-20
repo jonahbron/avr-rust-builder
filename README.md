@@ -2,7 +2,7 @@
 
 This container contains the dependencies and the source code of the
 [AVR Rust](https://github.com/avr-rust/rust) fork.  It provides a relable
-environment in which the fork can be consistently compiled.
+environment in which the fork can be consistently compiled.  This process takes up a lot of memory, so if you're not on Linux natively, you'll need to change your Docker settings to allocate more memory (8GB should work).
 
 Recommended usage:
 
